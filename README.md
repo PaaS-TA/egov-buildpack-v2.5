@@ -29,7 +29,7 @@ Use `bundle show [gemname]` to see where a bundled gem is installed.
 Creating build/egov-buildpack-offline-egov2.5.zip
 ```  
 
-다음 경로에 패키징 파일이 생성된다.
+다음 경로에 패키징 파일이 생성된다.  
 `build/egov-buildpack-offline-egov2.5.zip`
 
 
@@ -136,7 +136,7 @@ applications:
 
 `cd Egov/hellot-egov-board/for_push`
 
-- 애플리케이션 배포
+- 애플리케이션 배포  
 [상단](#notice-01)에 서술한대로, 샘플 애플리케이션은 빌드팩을 지정하지 않은 경우에는 Java 빌드팩으로 배포되기 때문에 적절한 배포가 이루어지지 않는다. 반드시 업로드한 전자정부 빌드팩을 지정하여 배포한다.
 
 `cf push -b egov_buildpack_v25`
@@ -157,7 +157,7 @@ buildpack: egov_buildpack_v25
 #0   running   2017-02-08 05:41:59 PM   158.4%   371.5M of 1G   182.1M of 1G
 ```
 
-- 애플리케이션 배포 확인
+- 애플리케이션 배포 확인  
 명령어를 이용하여 애플리케이션의 배포 여부와 상태를 확인한다.
 
 `cf apps`
@@ -166,7 +166,7 @@ buildpack: egov_buildpack_v25
 name                requested state   instances   memory   disk   urls
 hello-egov-boardT   started           1/1         1G       1G     hello-egov-boardt.115.68.46.186.xip.io
 ```
-- 애플리케이션 접속 확인
+- 애플리케이션 접속 확인  
 브라우저를 통해 확인된 url로 접속한다.
 
 ```
